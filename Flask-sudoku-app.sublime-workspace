@@ -1,0 +1,519 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"server",
+				"server_name"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"_e",
+				"_extract_topo"
+			],
+			[
+				"num_swe",
+				"num_sweep_signal"
+			],
+			[
+				"num_s",
+				"num_sweep_signal"
+			],
+			[
+				"fix",
+				"fixed_parameters"
+			],
+			[
+				"start",
+				"start_ind"
+			],
+			[
+				"data",
+				"data_format"
+			],
+			[
+				"num",
+				"num_channels"
+			],
+			[
+				"num_",
+				"num_sweep_signal"
+			],
+			[
+				"asser",
+				"assertIsInstance"
+			],
+			[
+				"header",
+				"header_entries"
+			],
+			[
+				"head",
+				"header_dict"
+			],
+			[
+				"dim",
+				"dim_px_str"
+			],
+			[
+				"Nan",
+				"NanonisFile"
+			],
+			[
+				"byte",
+				"byte_offset"
+			],
+			[
+				"byt",
+				"byte_offset"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Markdown Preview/Markdown.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/User/python_anaconda.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"Basic Builder - PdfLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Markdown Preview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python_anaconda.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Markdown Preview/Markdown.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "git",
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 572.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"print(sys.version)",
+			"import sys",
+			"python --version",
+			"ls",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ysebastien/Downloads/test.html",
+		"/D/git/sudopy-master/sudopy.py",
+		"/D/git/twitch chat spam counter/twitch_chat_word_counter.py",
+		"/C/Users/ysebastien/.chatty/logs/#moonmoon_ow.log",
+		"/C/Users/ysebastien/.chatty/logs/#playoverwatch.log",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/User/AutoDocstring.sublime-settings",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/AutoDocstring/AutoDocstring.sublime-settings",
+		"/D/git/twitch chat spam counter/README.md",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Default (Windows).sublime-keymap",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/D/git/twitch chat spam counter/.gitignore",
+		"/D/git/twitch chat spam counter/README.html",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/C/Users/ysebastien/Downloads/facebook-ysebastien/html/messages.htm",
+		"/D/SteamLibrary/steamapps/common/DarkestDungeon/shared/quirk/quirk_library.json",
+		"/D/SteamLibrary/steamapps/common/DarkestDungeon/shared/quirk/quirk.layout.darkest",
+		"/C/Program Files (x86)/Steam/userdata/83285865/262060/remote/profile_0/persist.roster.json",
+		"/C/Program Files (x86)/Steam/userdata/83285865/262060/remote/profile_0/persist.upgrades.json",
+		"/C/Program Files (x86)/Steam/userdata/83285865/262060/remote/profile_0/persist.estate.json",
+		"/C/Program Files (x86)/Steam/userdata/83285865/262060/remote/profile_0/plot_crimson_court_1/persist.map.json",
+		"/C/Program Files (x86)/Steam/userdata/83285865/262060/remote/profile_0/persist.quest.json",
+		"/C/Program Files (x86)/Steam/userdata/83285865/262060/remote/profile_0/novelty_tracker.json",
+		"/C/Program Files (x86)/Steam/userdata/83285865/262060/remote/steam_init.json",
+		"/D/SteamLibrary/steamapps/common/DarkestDungeon/effects/mode.effects.darkest",
+		"/C/Users/ysebastien/Documents/Darkest/persist.options.json",
+		"/C/Program Files (x86)/Steam/userdata/83285865/107100/remote/profile1.sav",
+		"/C/Games/DarkestDungeon/campaign/progression/progression.json",
+		"/C/Games/DarkestDungeon/campaign/roster/base.roster.groups.json",
+		"/C/Games/DarkestDungeon/campaign/roster/roster.settings.json",
+		"/C/Games/DarkestDungeon/campaign/roster/roster.variables.json",
+		"/C/Games/DarkestDungeon/heroes/jester/jester.info.darkest",
+		"/C/Games/DarkestDungeon/scripts/starting_save/persist.roster.json",
+		"/C/Games/DarkestDungeon/monsters/fishman_harpoon/anim/fishman_harpoon.sprite.attack_harpoon.skel",
+		"/C/Games/DarkestDungeon/monsters/ancestor_big/ancestor_big_D/ancestor_big_D.art.darkest",
+		"/C/Games/DarkestDungeon/user_information/user_information.darkest",
+		"/C/Users/ysebastien/Downloads/test.py",
+		"/D/Dropbox/udemy/machine learning A-Z/Part 1 - Data Preprocessing/data_preprocessing_template.py",
+		"/D/nginx-1.13.3/html/.well-known/acme-challenge/dqNnCaHli3_gxPvTXuVzJju_LBan5vAAh28l9Au3DAk.aAUqYfVfTak4ZG7Zx4x7Nh7TANsSImTvLsTJJzffMGs",
+		"/D/nginx-1.13.3/conf/nginx.conf",
+		"/D/git/SickRage/config.ini",
+		"/D/git/plexpy/plexpy/version.py",
+		"/F/Movies/Westworld (2016)/Westworld cd2.orig.nfo",
+		"/C/Program Files (x86)/Deluge/deluge-1.3.15-py2.7.egg/deluge/plugins/WebUi-0.1-py2.7.egg",
+		"/C/Program Files (x86)/Deluge/deluge-1.3.15-py2.7.egg/deluge/ui/web/web.pyc",
+		"/D/git/plexpy/config.ini",
+		"/D/git/plexpy/plexpy/config.py",
+		"/H/TimeMachine.sparsebundle/Info.bckup",
+		"/C/Games/DOOM/base/candidate.cfg",
+		"/C/Games/DOOM/base/disclayout.cfg",
+		"/D/Dropbox/jupyter-notebooks/twitch_chat_word_counter.py",
+		"/D/cygwin64/etc/nsswitch.conf",
+		"/D/Dropbox/Research/Ag111/utils.py",
+		"/D/Dropbox/Research/Ag111/read.py",
+		"/C/Users/ysebastien/Pictures/radialProfile.py",
+		"/C/Users/ysebastien/Pictures/underchemist3.png",
+		"/D/Dropbox/Documents/Zotero Library/better-bibtex/db.json",
+		"/F/Movies/The.Lord.Of.The.Rings.Extended.Trilogy.720p.-Zen_Bud/MediaInfo.nfo",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/Anaconda/test/test_doc.py",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/Anaconda/setup.py",
+		"/C/Users/ysebastien/.chatty/logs/#curse.log",
+		"/D/git/cmd/start-ssh-agent.cmd",
+		"/D/Dropbox/School/phys 572/UBe13 exp/paper/ube13.tex",
+		"/D/git/nanonispy/nanonispy/read.py",
+		"/D/git/nanonispy/nanonispy/_plot.py",
+		"/D/git/nanonispy/nanonispy/utils.py",
+		"/D/git/nanonispy/setup.py",
+		"/D/SteamLibrary/steamapps/common/DarkestDungeon/scripts/starting_roster.darkest",
+		"/D/SteamLibrary/steamapps/common/DarkestDungeon/scripts/map_generator.darkest",
+		"/D/SteamLibrary/steamapps/common/DarkestDungeon/effects/base.effects.darkest",
+		"/D/SteamLibrary/steamapps/common/DarkestDungeon/dungeons/cove/cove.dungeon.json",
+		"/D/SteamLibrary/steamapps/common/DarkestDungeon/dungeons/cove/cove.conditional.3.mash.darkest",
+		"/D/SteamLibrary/steamapps/common/DarkestDungeon/user_information/user_information.darkest",
+		"/D/SteamLibrary/steamapps/common/DarkestDungeon/campaign/estate/estate.json",
+		"/C/Users/ysebastien/AppData/Roaming/CouchPotato/settings.conf",
+		"/D/git/nanonispy/README.rst",
+		"/D/git/nanonispy/setup.cfg",
+		"/D/git/nanonispy/requirements.txt",
+		"/D/git/blog-source/fabfile.py",
+		"/D/git/nanonispy/boiler.py",
+		"/D/git/nanonispy/nanonispy/__init__.py",
+		"/D/git/blog-source/publishconf.py",
+		"/D/git/blog-source/pelicanconf.py",
+		"/D/git/HTPC-Manager/Htpc.py",
+		"/D/git/SickRage/sickbeard/numdict.py",
+		"/D/git/SickRage/readme.md",
+		"/D/git/dev_test.py",
+		"/D/git/nanonispy/nanonispy/tests/test_read.py",
+		"/D/git/lair-code/nanonispy/read/read.py",
+		"/D/git/lair-code/nanonispy/utils/utils.py",
+		"/D/git/lair-code/nanonispy/read/tests/test_read.py",
+		"/D/git/nanonispy/__init__.py",
+		"/D/git/nanonispy/read.py",
+		"/D/git/nanonispy/README.md",
+		"/D/git/nanonispy/tests/test_read.py",
+		"/D/git/nanonispy/dev_test.py",
+		"/D/git/test.py",
+		"/D/git/nanonispy/environment.yml",
+		"/D/git/h5stats/pyapi/PiousAcademic16807.py",
+		"/D/git/h5stats/h5stats.py",
+		"/D/git/h5stats/16807-Pious-Academic/__init__.py",
+		"/D/git/lair-code/nanonispy/__init__.py",
+		"/D/git/h5_stats/h5stats.py",
+		"/D/git/projecteuler/python/p70.py",
+		"/D/git/projecteuler/python/069.py",
+		"/D/Dropbox/Research/Ag111/analysis/ARPES.py",
+		"/D/git/lair-code/zVfits.py",
+		"/D/git/plexpy/PlexPy.py",
+		"/C/Users/ysebastien/.jupyter/jupyter_notebook_config.py",
+		"/D/Dropbox/Research/Ag111/analysis/Ag_disp_peak_fit_141021.py",
+		"/D/Dropbox/Research/Ag111/analysis/Ag_disp_all.py",
+		"/C/Users/ysebastien/.ipython/profile_nbserver/ipython_notebook_config.py",
+		"/C/Users/ysebastien/.ipython/profile_underchemist/ipython_notebook_config.py",
+		"/D/git/lair-code/nanonispy/utils/__init__.py",
+		"/D/cygwin64/home/ysebastien/.bashrc",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/ysebastien/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/ysebastien/Downloads/NetworkMiner_1-6-1/NetworkMiner.exe"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"read.py, test_read.py",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http",
+			"proxy",
+			"windows",
+			"counts",
+			"self",
+			"entry.split",
+			"maxsplit",
+			"xyz",
+			"git",
+			"self.end_tags",
+			"gen_raw_header",
+			"find_data_start_byte",
+			"_determine_filetype",
+			"self.NF",
+			"3ds",
+			"self.data",
+			"data",
+			"bias_spacing",
+			"import",
+			"bias_spacing",
+			"prime_divisors",
+			".port",
+			"open",
+			"get_config",
+			"port",
+			"find_peaks_line"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"read_raw_header",
+			"start_byte",
+			"determine_filetype",
+			"self.signals",
+			"dV"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 102.0
+	},
+	"output.latextools":
+	{
+		"height": 100.0
+	},
+	"output.markdown":
+	{
+		"height": 102.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Flask-sudoku-app.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"fss_on_distraction_free": false,
+		"fss_on_full_screen": false
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
