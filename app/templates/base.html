@@ -1,0 +1,14 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} - sudoku solver</title>
+    {% else %}
+    <title>Welcome to sudoku solver</title>
+    {% endif %}
+  </head>
+  <body>
+    <div>sudoku solver: <a href="/index">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
