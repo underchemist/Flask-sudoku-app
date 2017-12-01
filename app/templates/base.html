@@ -1,4 +1,5 @@
 <html>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
   <head>
     {% if title %}
     <title>{{ title }} - sudoku solver</title>
@@ -7,8 +8,11 @@
     {% endif %}
   </head>
   <body>
-    <div>sudoku solver: <a href="/index">Home</a></div>
-    <hr>
+    <div class="container">
+      <div class="heading">
+        <h1 class="title">Sudoku Solver</h1>
+      </div>
     {% block content %}{% endblock %}
+    </div>
   </body>
 </html>
