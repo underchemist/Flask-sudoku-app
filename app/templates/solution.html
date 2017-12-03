@@ -2,18 +2,17 @@
 {% block content %}
 <div class="game-container">
   <div class="grid-container">
-    <form action="{{ url_for('solution') }}" method="post" name="sudoku-input">
       {% for i in range(9) %}
         <div class="grid-row">
           {% for j in range(9) %}
             <div class="grid-cell">
-              <input type="number" maxlength="1" name='cell-input'>
+              <input type="number" maxlength="1" name='cell-input' value="{{ solved_puzzle[i][j] }}">
             </div>
           {% endfor %}
         </div>
       {% endfor %}
-      <input type="submit" value="SOLUTION">
-    </form>
+
+      <a href="{{ url_for('index') }}">BACK</a>
   </div>
 </div>
 {% endblock %}
