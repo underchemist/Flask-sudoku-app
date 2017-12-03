@@ -130,15 +130,12 @@
 			}
 		},
 		{
-			"contents": "{% extends \"base.html\" %}\n{% block content %}\n<div class=\"game-container\">\n  <div class=\"grid-container\">\n    <form action=\"{{ url_for('solution') }}\" method=\"post\" name=\"sudoku-input\">\n      {% for i in range(9) %}\n        <div class=\"grid-row\">\n          {% for j in range(9) %}\n            <div class=\"grid-cell\">\n              <input type=\"number\" maxlength=\"1\" name='cell-input'>\n            </div>\n          {% endfor %}\n        </div>\n      {% endfor %}\n      <input type=\"submit\" value=\"SOLUTION\">\n    </form>\n  </div>\n</div>\n\n{% endblock %}",
 			"file": "app/templates/index.html",
-			"file_size": 566,
-			"file_write_time": 131567243850285360,
 			"settings":
 			{
-				"buffer_size": 549,
+				"buffer_size": 548,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -300,9 +297,7 @@
 	},
 	"expanded_folders":
 	[
-		"/D/git/Flask-sudoku-app",
-		"/D/git/Flask-sudoku-app/app",
-		"/D/git/Flask-sudoku-app/app/templates"
+		"/Users/underchemist/git/Flask-sudoku-app"
 	],
 	"file_history":
 	[
@@ -433,7 +428,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -575,8 +570,8 @@
 						"selection":
 						[
 							[
-								183,
-								183
+								42,
+								42
 							]
 						],
 						"settings":
@@ -675,7 +670,9 @@
 						{
 							"git_gutter_is_enabled": true,
 							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -721,7 +718,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 549,
+						"buffer_size": 548,
 						"regions":
 						{
 						},
@@ -782,7 +779,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -839,7 +836,7 @@
 	"project": "Flask-sudoku-app.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -115,3 +115,13 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+input[type=submit] {
+  position: relative;
+  top: 25px;
+}
+
+a.btn.btn-primary.btn-block {
+  position: relative;
+  top: 25px;
+}
