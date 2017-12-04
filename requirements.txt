@@ -1,0 +1,9 @@
+certifi==2017.11.5
+click==6.7
+decorator==4.1.2
+Flask==0.12.2
+itsdangerous==0.24
+Jinja2==2.9.6
+MarkupSafe==1.0
+Werkzeug==0.12.2
+wincertstore==0.2
