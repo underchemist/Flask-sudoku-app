@@ -1,9 +1,9 @@
 
 html, body {
-  margin      : 0;
-  padding     : 0;
+  margin     : 0;
+  padding    : 0;
 
-  background  : #faf8ef;
+  background : #faf8ef;
 }
 
 body {
@@ -11,9 +11,10 @@ body {
 }
 
 .container {
-  position: relative;
-  width  : 530px;
-  margin : 0 auto;
+  position : relative;
+
+  width    : 530px;
+  margin   : 0 auto;
 }
 
 .heading:after {
@@ -94,8 +95,7 @@ h1.title {
   margin-right : 0;
 }
 
-input[type=text],
-input[type=number] {
+input[type=text], input[type=number] {
   height           : 48px;
   width            : 48px;
   padding          : 0;
@@ -111,19 +111,13 @@ input[type=number] {
   -moz-appearance  : textfield;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  margin             : 0;
+  -webkit-appearance : none;
 }
 
-/*input[type=submit] {
-  position: relative;
-  top: 25px;
-}*/
-
 .button-container {
-  position : relative;
+  position   : relative;
   margin-top : 40px;
 }
 
@@ -132,17 +126,25 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .footer {
-  position : relative;
-  display : block;
- }
+  position   : absolute;
+  display    : block;
+  right      : 0;
+  bottom     : 0;
+  left       : 0;
 
-/*a.btn.btn-primary.btn-block {
-  position: relative;
-  top: 25px;
+  width      : 100%;
+  margin-top : 150px;
+  padding    : 15px;
+
+  background : #4545e8;
+  text-align : center;
+  border-top : 3px solid grey;
 }
 
-button.btn.btn-secondary.btn-block {
-  position: relative;
-  top: 30px;
+.btn-social {
+  color : white;
 }
-*/
+
+.btn-social:hover {
+  color : grey;
+}
