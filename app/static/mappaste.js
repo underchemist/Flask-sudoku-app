@@ -31,7 +31,7 @@ $inputs.on("paste", function() {
         $inputs.attr("maxlength", 1);
     });
 
-    $inputs.attr("maxlength", 6);
+    $inputs.attr("maxlength", 81);
 });
 
 
