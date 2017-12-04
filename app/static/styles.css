@@ -2,13 +2,14 @@
 html, body {
   margin     : 0;
   padding    : 0;
+  height     : 100%;
 
   background : #faf8ef;
 }
 
 body {
   margin-top : 40px;
-  padding-bottom
+  /*margin-bottom : 71px;*/
 }
 
 .container {
@@ -120,6 +121,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 .button-container {
   position   : relative;
   margin-top : 40px;
+  margin-bottom : 80px;
 }
 
 .button-container > * {
@@ -127,9 +129,10 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .footer {
-  position   : absolute;
+  position   : fixed;
   bottom     : 0;
   display    : block;
+  z-index    : 3;
 
   width      : 100%;
   margin-top : 150px;
