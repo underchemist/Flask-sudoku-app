@@ -6,7 +6,7 @@
         <div class="grid-row">
           {% for j in range(9) %}
             <div class="grid-cell">
-              <input type="number" maxlength="1" name='cell-input' value="{{ solved_puzzle[i][j] }}">
+              <input type="number" maxlength="1" name='cell-input' value="{{ solved_puzzle[i][j] }}" readonly>
             </div>
           {% endfor %}
         </div>

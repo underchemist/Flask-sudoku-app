@@ -1,6 +1,6 @@
-from flask import render_template, request
+from flask import render_template, request, flash
 from app import app
-from .sudopy import Sudoku
+from .sudopy import Sudoku, InvalidInputError
 
 
 @app.route('/')
@@ -11,13 +11,21 @@ def index():
 
 @app.route('/solution', methods=['POST'])
 def solution():
-    data = request.form.getlist('cell-input')
-    print(data)
+    data = request.form
     data = clean_puzzle(data)
     S = Sudoku(data)
     T = S.solve()
-    print(T.to_list())
     return render_template('solution.html', solved_puzzle=T.puzzle)
+    # try:
+    #     S = Sudoku(data)
+    #     T = S.solve()
+    #     return render_template('solution.html', solved_puzzle=T.puzzle)
+    # except InvalidInputError:
+    #     flash('Invalid Sudoku')
+    #     render_template('index.html')
+    # else:
+    #     flash('An error occured')
+    #     render_template('index.html')
 
 
 def clean_puzzle(puzzle):
@@ -25,7 +33,7 @@ def clean_puzzle(puzzle):
     converts input from request.form to a string format readable by Sudoku
     """
     output = ''
-    for val in puzzle:
+    for val in puzzle.values():
         if val == '':
             output += '.'
         elif int(val) in range(1, 10):

@@ -1,7 +1,7 @@
 import re
 
 
-class InvalidInputError(Exception):
+class InvalidInputError(BaseException):
     pass
 
 
@@ -189,7 +189,7 @@ class Sudoku:
             self.puzzle = original
             return solution
         else:
-            print('no solution')
+            raise InvalidInputError("This sudoku is not solveable")
 
     def to_list(self):
         return [item for sublist in self.puzzle for item in sublist]

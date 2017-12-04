@@ -1,5 +1,6 @@
+$(function() {
 var $inputs = $(".def-txt-input");
-var intRegex = /^\d+$/;
+var intRegex = /^[\d.]+$/;
 
 // Prevents user from manually entering non-digits.
 $inputs.on("input.fromManual", function(){
@@ -40,7 +41,13 @@ function pasteValues(element) {
     var values = element.split("");
 
     $(values).each(function(index) {
-        var $inputBox = $('.def-txt-input[name="cell-input[' + (index + 1) + ']"]');
-        $inputBox.val(values[index])
+        var $inputBox = $('.def-txt-input[name="cell-input[' + (index) + ']"]');
+        if (!isNaN(values[index])) {
+            $inputBox.val(values[index])
+        }
+        else {
+            $inputBox.val("")
+        }
     });
 };
+});
