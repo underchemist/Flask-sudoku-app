@@ -117,12 +117,26 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-input[type=submit] {
+/*input[type=submit] {
   position: relative;
   top: 25px;
+}*/
+
+.button-container {
+  position : relative;
+  margin-top : 40px;
 }
 
-a.btn.btn-primary.btn-block {
+.button-container > * {
+  margin-bottom : 20px;
+}
+
+.footer {
+  position : relative;
+  display : block;
+ }
+
+/*a.btn.btn-primary.btn-block {
   position: relative;
   top: 25px;
 }
@@ -131,3 +145,4 @@ button.btn.btn-secondary.btn-block {
   position: relative;
   top: 30px;
 }
+*/
