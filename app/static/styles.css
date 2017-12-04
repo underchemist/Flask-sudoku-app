@@ -94,6 +94,7 @@ h1.title {
   margin-right : 0;
 }
 
+input[type=text],
 input[type=number] {
   height           : 48px;
   width            : 48px;

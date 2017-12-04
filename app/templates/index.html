@@ -7,7 +7,7 @@
         <div class="grid-row">
           {% for j in range(9) %}
             <div class="grid-cell">
-              <input type="number" maxlength="1" name='cell-input'>
+              <input type="text" maxlength="1" name='cell-input[{{ j+i*9 }}]' class="def-txt-input">
             </div>
           {% endfor %}
         </div>
