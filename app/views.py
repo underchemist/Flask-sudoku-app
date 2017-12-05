@@ -2,8 +2,10 @@ from flask import render_template, request, flash, redirect, url_for
 from app import app
 from .sudopy import Sudoku
 
-app.config.from_object('config')
-print(app.config['SECRET_KEY'])
+app.config.from_object('local_config')
+app.config.from_envvar('SECRET_KEY')
+app.config.from_envvar('DEBUG')
+
 
 @app.route('/')
 @app.route('/index')
