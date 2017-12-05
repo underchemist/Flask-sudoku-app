@@ -6,8 +6,8 @@ import os
 app.config.from_object('local_config')
 
 if 'HEROKU' in os.environ:
-    app.config.from_envvar('SECRET_KEY')
-    app.config.from_envvar('DEBUG')
+    app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
+    app.config['DEBUG'] = os.environ['DEBUG']
 
 
 @app.route('/')
