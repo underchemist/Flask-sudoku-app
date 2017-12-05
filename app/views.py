@@ -1,6 +1,6 @@
-from flask import render_template, request, flash
+from flask import render_template, request, flash, redirect, url_for
 from app import app
-from .sudopy import Sudoku, InvalidInputError
+from .sudopy import Sudoku
 
 
 @app.route('/')
@@ -14,18 +14,12 @@ def solution():
     data = request.form
     data = clean_puzzle(data)
     S = Sudoku(data)
-    T = S.solve()
-    return render_template('solution.html', solved_puzzle=T.puzzle)
-    # try:
-    #     S = Sudoku(data)
-    #     T = S.solve()
-    #     return render_template('solution.html', solved_puzzle=T.puzzle)
-    # except InvalidInputError:
-    #     flash('Invalid Sudoku')
-    #     render_template('index.html')
-    # else:
-    #     flash('An error occured')
-    #     render_template('index.html')
+    if S.validate():
+        T = S.solve()
+        return render_template('solution.html', solved_puzzle=T.puzzle)
+    else:
+        flash('Invalid Sudoku')
+        return redirect(url_for('index'))
 
 
 def clean_puzzle(puzzle):

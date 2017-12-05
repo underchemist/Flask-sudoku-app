@@ -193,3 +193,12 @@ class Sudoku:
 
     def to_list(self):
         return [item for sublist in self.puzzle for item in sublist]
+
+    def validate(self):
+        p = self.puzzle
+        for r in range(self._NROWS):
+            for c in range(self._NCOLS):
+                if p[r][c]:
+                    if not self._check_move((r, c, p[r][c])):
+                        return False
+        return True
