@@ -6,12 +6,12 @@
         <div class="grid-row">
           {% for j in range(9) %}
             <div class="grid-cell">
-              <input type="number" maxlength="1" name='cell-input' value="{{ solved_puzzle[i][j] }}" readonly>
+              <input class="fadein-container" type="number" maxlength="1" name='cell-input' value="{{ solved_puzzle[i][j] }}" readonly>
             </div>
           {% endfor %}
         </div>
       {% endfor %}
-      <div class='button-container'>
+      <div class='button-container fadein-container'>
           <a class="btn btn-primary btn-block" href="{{ url_for('index') }}">Back</a>
       </div>
   </div>

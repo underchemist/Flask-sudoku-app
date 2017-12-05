@@ -53,6 +53,13 @@ h1.title {
   border-radius : 6px;
 }
 
+.fadein-container {
+  animation : fadein 1s;
+  -moz-animation : fadein 1s;
+  -webkit-animation : fadein 1s;
+  -o-animation : fadein 1s;
+}
+
 .grid-container {
   position : absolute;
   z-index  : 1;
@@ -150,4 +157,39 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 
 .btn-social:hover {
   color : grey;
+}
+
+/* Keyframes for fadein/out animations?*/
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
