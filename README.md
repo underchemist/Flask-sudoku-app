@@ -1,6 +1,6 @@
 # Flask-sudoku-app
 
-[*See live version here*](http://secret-ocean-76321.herokuapp.com/)
+[*See live version here*](http://sudoku-solver.herokuapp.com/)
 
 -------------------------------------------------------------------
 
